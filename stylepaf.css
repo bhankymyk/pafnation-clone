@@ -9,7 +9,7 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #ffaf4f;
+    background-color: #ffaf4f !important;
 }
 
 .body-head {
@@ -24,13 +24,21 @@ body {
 }
 
 .btns {
-    background-color: #ffaf4f;
-    color: #fff;
+    background-color: #ffaf4f !important;
+    color: #fff !important;
 }
 
 .btns:hover {
-    background-color: #ed733f;
-    color: #fff;
+    background-color: #ed733f !important;
+    color: #fff !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
 }
 
 .nav-link,
@@ -51,12 +59,13 @@ body {
 h3,
 h5 {
     color: #ffaf4f;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 p {
     padding: 20px;
     color: #14120f;
+    line-height: 20px;
 }
 
 h4 {
@@ -67,10 +76,13 @@ h4 {
 
 .body-4 {
     background-color: #ffaf4f;
+    color: #fff;
+    font-size: 1rem;
+    /* line-height: 66px; */
 }
 
 .people {
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
     background-color: #ffaf4f;
 }
 
@@ -149,8 +161,39 @@ h1,
     border-radius: 15px;
 }
 
+.navs-float {
+    float: right;
+}
+
+
+/* .Vector {
+    position: absolute;
+    width: 388px;
+    height: 299px;
+    top: -50px;
+    left: 900px;
+} */
+
+.vector {
+    width: 200px;
+    height: 100px;
+}
+
 @media screen and ( max-width:575px) {
-    .list-1 {
-        padding: 5px;
+    .newsletter {
+        width: 100%;
+    }
+    /* .Vector {
+        position: absolute;
+        width: 38px;
+        height: 29px;
+        top: -50px;
+        left: 900px;
+    } */
+}
+
+@media screen and (min-width: 600px) {
+    .navbar-expand-md .navbar-collapse {
+        display: block !important;
     }
 }
