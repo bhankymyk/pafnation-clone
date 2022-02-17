@@ -1,28 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Nunito', sans-serif;
-    background-image: url("assests/images/Interior.jpeg");
+    background-image: url("assests/images/Sign\ Up\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
 }
+
 .forms {
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: #fff;
 }
-h1, p {
+
+h1,
+p {
     text-align: center;
 }
-.btns{
+
+.btns {
     background-color: #ffaf4f;
     color: white;
     border-radius: 10px;
 }
+
 .btns:hover {
     background-color: #ed733f;
     color: #fff;
 }
+
 .signs {
     float: right;
     color: red;
