@@ -25,12 +25,12 @@ body {
 
 .btns {
     background-color: #ffaf4f !important;
-    color: #fff !important;
+    color: #F6EDDD !important;
 }
 
 .btns:hover {
     background-color: #ed733f !important;
-    color: #fff !important;
+    color: #F6EDDD !important;
 }
 
 .btn:focus {
@@ -43,7 +43,7 @@ body {
 
 .nav-link,
 .navbar-brand {
-    color: #fff;
+    color: #F6EDDD;
 }
 
 .navbar-brand:hover,
@@ -76,13 +76,13 @@ h4 {
 
 .body-4 {
     background-color: #ffaf4f;
-    color: #fff;
+    color: #F6EDDD;
     font-size: 1rem;
     /* line-height: 66px; */
 }
 
 .people {
-    /* border: #fff 1px solid; */
+    /* border: #F6EDDD 1px solid; */
     background-color: #ffaf4f;
 }
 
@@ -115,20 +115,20 @@ ul li,
 
 h5,
 .foot-heading {
-    color: #fff;
+    color: #F6EDDD;
     /* padding: 20px; */
     text-align: left;
     margin-left: -10px;
 }
 
 .foot-add {
-    color: #fff;
+    color: #F6EDDD;
     font-size: 1rem;
 }
 
 .icon {
     display: inline;
-    color: #fff;
+    color: #F6EDDD;
     /* padding: 2rem; */
 }
 
@@ -136,7 +136,7 @@ h1,
 .nav-p,
 .icons {
     /* margin-top: 8rem; */
-    color: #fff;
+    color: #F6EDDD;
 }
 
 .icons {
@@ -150,7 +150,7 @@ h1,
 }
 
 .people p {
-    color: #fff;
+    color: #F6EDDD;
 }
 
 .people-mid p {

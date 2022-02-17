@@ -14,7 +14,7 @@ body {
 
 .forms {
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #F6EDDD;
 }
 
 h1,
@@ -24,13 +24,13 @@ p {
 
 .btns {
     background-color: #ffaf4f;
-    color: white;
+    color: #F6EDDD;
     border-radius: 10px;
 }
 
 .btns:hover {
     background-color: #ed733f;
-    color: #fff;
+    color: #F6EDDD;
 }
 
 .signs {
